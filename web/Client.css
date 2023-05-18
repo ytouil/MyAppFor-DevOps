@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 avr. 2021, 15:43:13
+    Author     : HP
+*/
+/*:root {
+    --colorOne: #141414;
+    --colorTwo: #5c5c5c;
+    --colorWhite: #e5e5e5;
+    --tileBorderRadius: 4px;
+    --fontOne: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}*/
+/*body{
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.swiper-slide{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.header {
+    padding: 0 2%;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #141414;
+}
+
+.headerLogo {
+    width: 120px;
+}
+
+.thumbSection {
+    padding-top: 3%;
+    color: #e5e5e5;
+}
+
+.thumbTitle {
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: 500;
+    margin: 0 4% 12px;
+}
+
+.thumbTiles.swiper-container {
+    padding: 0 4%;
+    padding-bottom: 0;
+}
+
+.thumbTile {
+    width: 20%;
+}
+
+.thumbTile__image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.thumbTiles .swiper-button-prev,
+.thumbTiles .swiper-button-next {
+    height: 100%;
+    width: 4%;
+    width: calc(4% - 5px);
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+.thumbTiles .swiper-button-prev {
+    left: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.thumbTiles .swiper-button-next {
+    right: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+
+.sa {
+    background: #141414;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    color: #000;
+    -webkit-box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+    display: none;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 88px;
+    z-index: 999;
+    -webkit-animation: gb__a .2s;
+    animation: gb__a .2s;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    height: 300px;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -ms-border-radius:30px;
+     -webkit-user-select: text; 
+}
+
+#deconnexion{
+    padding:15px 20px;
+    margin-top: 70px;
+    margin-left: 60px;
+    height:55px;
+    border: 1px solid #dadada;
+    color: grey;
+    text-align:justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight:bold;
+    font-family: 'Muli', sans-serif;
+    border-radius:30px;
+    border-top-right-radius: 5px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -ms-border-radius:30px; 
+    display:block;
+}*/
+
+/*@media screen and (min-width: 640px) {
+    .thumbTiles .swiper-button-prev::after,
+    .thumbTiles .swiper-button-next::after {
+        display: none;
+        font-size: 2.4vw;
+    }
+
+    .thumbTiles .swiper-button-prev:hover::after,
+    .thumbTiles .swiper-button-next:hover::after {
+        transform: scale(1.25);
+    }
+
+    .thumbTiles:hover .swiper-button-prev::after,
+    .thumbTiles:hover .swiper-button-next::after {
+        display: block;
+    }
+
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    padding: 0 2%;
+    background-color: #141414;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #141414;
+    overflow-x: hidden;
+}
+
+.headerLogo {
+    width: 50px;
+}
+.sa {
+    background: #141414;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    color: #000;
+    -webkit-box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+    display: none;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 88px;
+    z-index: 999;
+    -webkit-animation: gb__a .2s;
+    animation: gb__a .2s;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    height: 300px;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -ms-border-radius:30px;
+    /* -webkit-user-select: text; */
+}
+
+#deconnexion{
+    padding:15px 20px;
+    margin-top: 70px;
+    margin-left: 60px;
+    height:55px;
+    border: 1px solid #dadada;
+    color: grey;
+    text-align:justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight:bold;
+    font-family: 'Muli', sans-serif;
+    border-radius:30px;
+    border-top-right-radius: 5px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -ms-border-radius:30px; 
+    display:block;
+}
+
