@@ -43,7 +43,7 @@ public class controleur extends HttpServlet {
             st = (new connexion().getst());
 
 //            ResultSet r=st.executeQuery("SELECT * FROM admins  where email_admin='"+log+"' and passe_admin ='"+pass+"'");
-            ResultSet rs = st.executeQuery("SELECT * FROM clients  where email_client='" + log + "' and passe_client ='" + pass + "'");
+            ResultSet rs = st.executeQuery("SELECT email_client, passe_client, id_client FROM clients  where email_client='" + log + "' and passe_client ='" + pass + "'");
 
             if (rs.next()) {
 
